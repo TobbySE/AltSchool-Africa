@@ -6,24 +6,26 @@
     <title>HTML 2 - ALT/SOE/024/1550</title>
 </head>
 <body>
-    <a href="./table.html" target="_blank">Table Page</a>
+    <a href="./table.html" target="">Table Page</a>
     <h2>About Me - Media</h2>
     <div>
         <picture>
-            <source srcset="me-large.jpg" media="(min-width: 1024px)">
-            <source srcset="me-large.jpg" media="(min-width: 768px)">
-            <source srcset="me-large.jpg" media="(min-width: 767px)">
-            <img src="me-small.jpg" alt="Me">
+            <source srcset="assets/me-picture.jpg" media="(min-width: 1024px)">
+            <source srcset="assets/me-picture.jpg" media="(min-width: 768px)">
+            <source srcset="assets/me-picture.jpg" media="(min-width: 767px)">
+            <img src="assets/me-picture.jpg" style="width:auto" alt="Me">
         </picture>
-        <video controls>
-            <source src="intro.mp4" type="video/mp4">
+        <br>
+        <!-- <video controls>
+            <source src="assets/me-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video> -->
+        <br>
         <audio controls>
-            <source src="intro.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
+            <source src="assets/spanish-guitar.wav" type="audio/mpeg">
         </audio>
-        <iframe width="560" height="315" src="https://ww.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        <br>
+        <iframe width="560" height="315" src="assets/me-video.mp4" allowfullscreen></iframe>
     </div>
 </body>
 </html>
